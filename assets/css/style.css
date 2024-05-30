@@ -2,6 +2,9 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
+::-webkit-scrollbar {
+  width: 0;
+}
 
 a {
   color: #149ddd;
@@ -581,6 +584,11 @@ figure {
   position: relative;
   overflow: hidden;
   z-index: 1;
+}
+
+.portfolio .portfolio-wrap img {
+  height: 150px;
+  width: -webkit-fill-available;
 }
 
 .portfolio .portfolio-wrap::before {
